@@ -1,5 +1,5 @@
 # wiggleChart
-> a colorpicker component for Vue.js.
+> a chart of geological section by javascript.
 
 [DEMO](https://shuang13.github.io/wiggleChart/test/wiggleChart.html)
 
