@@ -1,0 +1,21 @@
+{
+  "name": "wiggle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "browserify ./dist/test.js -o ./dist/wiggleChart.test.js",
+    "start": "npm run build && npm run test"
+  },
+  "author": "shuang13 <794861654@qq.com> (https://github.com/shuang13)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.12",
+    "@babel/preset-env": "^7.17.12"
+  },
+  "dependencies": {
+    "browserify": "^17.0.0"
+  }
+}
